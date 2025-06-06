@@ -1,4 +1,4 @@
-# Forza Horizon 5 Telemetry API
+# Forza Horizon Telemetry API
 
 This API listens to Forza Horizon 5 UDP telemetry data and exposes it via a simple RESTful HTTP API on your local machine. It enables you to query real-time car telemetry like engine RPM, steering input, tire slip, and more.
 
