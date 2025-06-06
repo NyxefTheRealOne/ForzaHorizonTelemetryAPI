@@ -56,7 +56,10 @@ Start listening for UDP telemetry packets on 127.0.0.1:5300
 
 Launch a Flask HTTP server on 127.0.0.1:5000
 
+---
+
 ##API Endpoints
+
 ###GET `/telemetry`
 Returns the full latest telemetry data as JSON.
 
@@ -68,7 +71,6 @@ Example response:
   "timestamp_ms": 123456789,
   "engine_max_rpm": 9000,
   "steering": -0.123,
-  ...
 }
 ```
 ###GET `/telemetry/<parameter>`
@@ -104,7 +106,6 @@ Example response:
   "timestamp_ms",
   "engine_max_rpm",
   "steering",
-  ...
 ]
 ```
 
