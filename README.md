@@ -58,7 +58,7 @@ Launch a Flask HTTP server on 127.0.0.1:5000
 
 ---
 
-##API Endpoints
+## API Endpoints
 
 ###GET `/telemetry`
 Returns the full latest telemetry data as JSON.
